@@ -13,8 +13,10 @@ https://ealizadeh.com/blog/guide-to-python-env-pkg-dependency-using-conda-poetry
 ### 
 
 '''
+
 $ conda env create -f environment.yaml
 $ conda activate dbt
+
 '''
 
 ### Install Poetry
