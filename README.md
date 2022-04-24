@@ -12,39 +12,38 @@ https://ealizadeh.com/blog/guide-to-python-env-pkg-dependency-using-conda-poetry
 
 ### 
 
-'''
-
+```
 $ conda env create -f environment.yaml
 $ conda activate dbt
 
-'''
+```
 
 ### Install Poetry
 
-'''
+```
 $ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
-'''
+```
 
 Setup path 
-'''
+```
 $HOME/.local/bin for Unix
 %APPDATA%\Python\Scripts on Windows
-'''
+```
 
 
 poetry initial
-'''
+```
 $ poetry init
-'''
+```
 
 
 ## III. Setup DBT
 
 This repository accompanies my Learn DBT from Scratch course. Throughout the course, some of the topics we cover include:
 1. Setting up DBT
-'''
+```
 $ poetry add  dbt-core  dbt-postgres  dbt-snowflake 
-'''
+```
 
 3. Connecting DBT to Snowflake
 4. Getting Started with DBT Models & Tests
