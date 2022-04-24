@@ -45,10 +45,17 @@ This repository accompanies my Learn DBT from Scratch course. Throughout the cou
 $ poetry add  dbt-core  dbt-postgres  dbt-snowflake 
 ```
 
+cd jrtest and dbt init
+```
+$ dbt init jrtest
+```
+
 3. Connecting DBT to Snowflake
-4. Getting Started with DBT Models & Tests
-5. Deploying on a Schedule & DBT Cloud
-6. Advanced DBT Topics
-7. Best Practices
+
+
+5. Getting Started with DBT Models & Tests
+6. Deploying on a Schedule & DBT Cloud
+7. Advanced DBT Topics
+8. Best Practices
 
 The files found in this repository are the same ones that are used throughout the course. Feel free to reference any of the code here if you like. I do recommend trying to code along with the course before copying from this repository. Also, some of the models (such as the example models) get used over and over again, so the final code here might not match the code in a given lesson.
