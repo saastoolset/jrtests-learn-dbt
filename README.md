@@ -1,6 +1,6 @@
 # Learn DBT from Scratch
 ### JR Tests
-I. The proposed environment setup
+## I. The proposed environment setup
 - conda as environment manager
 - pypi/pip as package repository and manager 
 - Poetry as the dependency manager.
@@ -8,13 +8,14 @@ I. The proposed environment setup
 https://ealizadeh.com/blog/guide-to-python-env-pkg-dependency-using-conda-poetry
 
 
-II. Install Poetry
+## II. Install Poetry
 
 '''
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 '''
 
-III. Setup DBT
+## III. Setup DBT
+
 This repository accompanies my Learn DBT from Scratch course. Throughout the course, some of the topics we cover include:
 1. Setting up DBT
 2. Connecting DBT to Snowflake
