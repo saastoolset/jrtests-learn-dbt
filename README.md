@@ -51,7 +51,28 @@ $ dbt init jrtest
 ```
 
 3. Connecting DBT to Snowflake
+3.1 sign in snowflake
+https://www.snowflake.com/
 
+3.2 change role to ACCOUNTADMIN
+3.3 create warehouse TRANSFER_WH
+3.4 create user/role/db
+- TRANSFORM_USER / 123456
+- TRANSFORM_ROLE 
+  -> parent ACCOUNTADMIN
+  - ACCESS: USERNAME /TRANSFORM_USER
+- Database: Analytics
+  - grant CREATE SCHEMA, MODIFY, USAGE to ACCOUNTADMIN
+  - grant CREATE SCHEMA, MODIFY, USAGE to TRANSFORM_ROLE
+- Schema
+  - create schema analytics.dbt;
+
+3.4 test connet
+- show profile
+'''
+$ dbt debug --config-dir
+'''
+- edit   %USERPROFILE%\.dbt\profiles.yml
 
 5. Getting Started with DBT Models & Tests
 6. Deploying on a Schedule & DBT Cloud
