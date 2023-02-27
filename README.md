@@ -8,7 +8,7 @@
 https://ealizadeh.com/blog/guide-to-python-env-pkg-dependency-using-conda-poetry
 
 
-## II. Envirioment prepare
+## II. Environment prepare
 
 ### 
 
@@ -95,7 +95,7 @@ $ dbt init jrtest
     '''
     $ dbt debug 
     '''
-- Check connectivity
+- Run
     '''
     $ dbt run
     '''
